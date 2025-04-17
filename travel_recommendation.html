@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom | Explore Dream Destinations</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar (Task 2) -->
+  <nav>
+    <span class="logo">TravelBloom</span>
+    <ul>
+      <li><a href="#" class="active" id="home-link">Home</a></li>
+      <li><a href="#" id="about-link">About Us</a></li>
+      <li><a href="#" id="contact-link">Contact Us</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search beaches, temples...">
+      <button id="search-btn">Search</button>
+      <button id="clear-btn">Clear</button>
+    </div>
+  </nav>
+
+  <!-- Home Page (Task 3) -->
+  <section id="home-page" class="page active">
+    <div class="hero">
+      <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+      <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes.</p>
+      <button class="book-now">BOOK NOW</button>
+    </div>
+    <div class="social-icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </section>
+
+  <!-- About Us (Task 4) -->
+  <section id="about-page" class="page">
+    <div class="about-container">
+      <h1>ABOUT US</h1>
+      <p>Welcome to TravelBloom! We are a team of passionate travelers dedicated to providing the best recommendations for your dream destinations.</p>
+      <div class="team">
+        <div class="member">
+          <h3>John Doe</h3>
+          <p>CEO & Founder</p>
+        </div>
+        <div class="member">
+          <h3>Jane Smith</h3>
+          <p>Travel Expert</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us (Task 5) -->
+  <section id="contact-page" class="page">
+    <div class="contact-container">
+      <h1>CONTACT US</h1>
+      <form id="contact-form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Recommendations Section (Tasks 6-9) -->
+  <section id="recommendations" class="recommendations-container"></section>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
